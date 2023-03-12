@@ -22,7 +22,7 @@ media = soma_idades / len(list_persons)
 print(f'A média das idades é : {media:5.2f} anos.')
 print(f'As mulheres cadastradas foram :',end='')
 for p in list_persons:
-    if p['sexo'] is 'F':
+    if p['sexo'] == 'F':
         print(f'{p["nome"]}', end='')
 print()
 print(f'Lista das pessoas que estão acima da média', end='')
